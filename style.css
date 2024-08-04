@@ -5,6 +5,8 @@ body {
     color: white;
 }
 
+/* Apartado de presentación */
+
 .presentation {
     position: relative;
     width: 100%;
@@ -56,6 +58,8 @@ nav ul {
     color: #8ac9dc;
 }
 
+/* Apartado de proyectos */
+
 .projects-gallery {
     display: flex;
 }
@@ -78,43 +82,48 @@ nav ul {
     color: #121212;
 }
 
-.about-container {
-    margin-top: 20px;
+/* Apartado de "Sobre mi" */
+
+.about-content {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
 }
 
-.about-container {
-    display: flex;
-    text-align: justify;
+.about-side {
+    width: 20%;
+}
+
+.about-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/cat.jpg);
+    background-size: cover;
+    filter: grayscale(100%);
 }
 
 .about-text {
-    justify-content: center;
-    align-items: center;
-}
-
-.about-text p {
-    width: 70%;
+    width: 50%;
     text-align: justify;
+    padding: 0px 20px;
 }
 
-.contact {
+.contact-container {
     display: flex;
+    justify-content: center;
 }
 
-.contact-buttons {
-    display: flex;
-}
-
-.contact-buttons a {
-    float: left;
-    border: 2px solid white;
+.contact-button {
+    border: 1px solid white;
     border-radius: 10px;
-    width: 100px;
-    height: 100px;
-    margin: 0px 20px;
+    width: 50px;
+    height: 50px;
     transition: 0.3s;
+    float: left;
+    margin: 0px 10px 20px 10px;
 }
 
-.contact-buttons a:hover {
+.contact-button:hover {
+    transform: scale(1.05);
     background-color: white;
 }
