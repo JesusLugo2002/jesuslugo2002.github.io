@@ -73,6 +73,19 @@ nav {
 
 /* Apartado de "Sobre mi" */
 
+.about-title {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.about-title h1 {
+    border-bottom: 1px solid white;
+    width: 35%;
+    text-align: center;
+}
+
 .about-content {
     display: flex;
     margin: 20px;
