@@ -14,48 +14,37 @@ body {
     background-image: url(img/background.png);
 }
 
-.presentation-container {
-    position: absolute;
-    background-color: #121212;
-    width: 50%;
-    height: 360px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 10px;    
+/* Navegation Bar */
+
+nav {
+    position: fixed;
     display: flex;
+    z-index: 64;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: #040404;
     align-items: center;
 }
 
-.presentation-child {
-    float: left;
-    width: 50%;
-    text-align: center;
+.button-row {
+    padding-left: 50px;
 }
 
-.presentation-title {
-    margin: 0;
-    width: 100%;
-    border-right: 1px solid white;
-    padding: 0px 30px;
-    text-align: center;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-.nav-button {
-    padding: 10px;
-}
-
-.nav-button a {
+.button-row a {
+    padding-left: 20px;
     color: white;
     text-decoration: none;
+    transition: 0.5s;
 }
 
-.nav-button a:hover {
-    color: #8ac9dc;
+.button-row a:hover {
+    color: cadetblue;
+}
+
+.title {
+    padding-right: 50px;
+    cursor: default;
 }
 
 /* Apartado de proyectos */
@@ -100,6 +89,11 @@ nav ul {
     background-image: url(img/cat.jpg);
     background-size: cover;
     filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.about-img:hover {
+    filter: none;
 }
 
 .about-text {
@@ -114,7 +108,7 @@ nav ul {
 }
 
 .contact-button {
-    border: 1px solid white;
+    position: relative;
     border-radius: 10px;
     width: 50px;
     height: 50px;
@@ -124,6 +118,20 @@ nav ul {
 }
 
 .contact-button:hover {
-    transform: scale(1.05);
-    background-color: white;
+    transform: scale(1.2);
+}
+
+.contact-button i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: wheat;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+    background-color: #040404;
+    align-content: center;
 }
