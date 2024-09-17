@@ -49,24 +49,25 @@ nav {
 
 /* Apartado de proyectos */
 
-.projects-gallery {
+.gallery {
+    width: 100%;
     display: flex;
+    justify-content: center;
 }
 
-.project-card {
-    width: 25%;
-    height: 320px;
-    float: left;
+.gallery-card {
+    width: 25vw;
+    height: 22vw;
+    padding-top: 3vw;
     text-align: center;
     color: white;
     text-decoration: none;
     border: 1px solid white;
     font-size: larger;
-    padding-top: 40px;
     transition: 0.3s;
 }
 
-.project-card:hover {
+.gallery-card:hover {
     background-color: white;
     color: #121212;
 }
@@ -82,7 +83,7 @@ nav {
 
 .about-title h1 {
     border-bottom: 1px solid white;
-    width: 35%;
+    width: 35vw;
     text-align: center;
 }
 
@@ -93,7 +94,7 @@ nav {
 }
 
 .about-side {
-    width: 20%;
+    width: 20vw;
 }
 
 .about-img {
@@ -110,7 +111,7 @@ nav {
 }
 
 .about-text {
-    width: 50%;
+    width: 50vw;
     text-align: justify;
     padding: 0px 20px;
 }
@@ -142,9 +143,13 @@ nav {
     color: white;
 }
 
+/* Footer */
+
 footer {
+    display: flex;
     height: 50px;
     text-align: center;
     background-color: #040404;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
