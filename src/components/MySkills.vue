@@ -1,23 +1,29 @@
 <template>
-    <div class="container">
+    <div class="container my-4">
         <div class="row">
-            <div class="col-12 skill">
+            <div class="col-12 px-5 py-4 d-flex flex-column col-lg-4">
+                <div class="placeholder bg-dark align-self-center mb-4">
+                    <!-- Aqui irá el logo dibujado en pixel-art -->
+                </div>
                 <h3>As videogame lover...</h3>
-                <p>I truly believe that video games are complete cultural works, where we find different forms of art that offer us great experiences. I have enjoyed them since I was a child and I am committed to creating my own adventures, my own worlds.</p>
+                <p>I consider video games to be complete cultural works, which can captivate us with rich experiences of different art forms. I have enjoyed them since I was a child and I am committed to creating my own stories to captivate more people.</p>
+                <p><span class="text-primary fw-bold">Favourites videogames: </span>Red Dead Redemption 2, Ultrakill, Bloodborne, Hollow Knight and Cult of the Lamb.</p>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-sm-4 skill">
+            <div class="col-12 px-5 py-4 d-flex flex-column col-lg-4">
+                <div class="placeholder bg-dark align-self-center mb-4">
+                    <!-- Aqui irá el logo dibujado en pixel-art -->
+                </div>
                 <h3>As developer...</h3>
-                <p>I like to continuously improve, create clean and sustainable code, always aiming to learn and follow simple patterns, good principles and practices.</p>
+                <p>Organization, simplicity, and clean code are the most important things to me, so it's something I try to improve. I like learning to solve patterns in a simple way, finding efficient solutions, and reinforcing principles and good practices in my knowledge.</p>
+                <p><span class="text-primary fw-bold">Dev tools: </span>Visual Studio Code, Vue, Django, Bootstrap, Godot Engine, Pixi.js</p>
             </div>
-            <div class="col-12 col-sm-4 skill">
-                <h3>As artist...</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda cumque odio dolorum, nobis laudantium deserunt distinctio numquam aperiam totam, earum voluptas repellendus, sed ea vero minima fugit vel blanditiis nam.</p>
-            </div>
-            <div class="col-12 col-sm-4 skill">
-                <h3>As writer...</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum doloremque dolore eius quae perspiciatis exercitationem nam rerum est, deleniti veniam hic? Dignissimos doloremque architecto libero laboriosam at maiores, veniam est!</p>
+            <div class="col-12 px-5 py-4 d-flex flex-column col-lg-4">
+                <div class="placeholder bg-dark align-self-center mb-4">
+                    <!-- Aqui irá el logo dibujado en pixel-art -->
+                </div>
+                <h3>As artist (well, future artist)...</h3>
+                <p>I have a clear tendency towards pixel-art and every day I take a step closer to perfecting this beautiful and complex technique. As in any creative discipline, the process of improvement is continuous, and there is always a long way to go.</p>
+                <p><span class="text-primary fw-bold">Fun fact: </span>all the pixel-art you find on this page was drawn by me c:</p>
             </div>
         </div>
     </div>
@@ -26,11 +32,11 @@
 <style scoped>
 h3 {
     font-family: "Pixelify Sans", serif;
+    font-weight: bolder;
 }
-.skill {
-    border-radius: 20px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 3px 2px 5px 2px #707087;
+.placeholder {
+    background-color: gainsboro;
+    width: 100%;
+    height: 4rem;
 }
 </style>
