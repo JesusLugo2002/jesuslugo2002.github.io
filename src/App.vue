@@ -19,3 +19,9 @@ import MyWorks from './components/MyWorks.vue';
   </main>
   <Footer>© Jesús Lugo 2025</Footer>
 </template>
+
+<style lang="scss">
+body {
+  background-color: $white;
+}
+</style>

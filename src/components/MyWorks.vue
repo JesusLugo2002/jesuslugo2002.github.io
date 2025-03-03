@@ -15,7 +15,7 @@ onMounted(async() => {
 </script>
 
 <template>
-    <div class="container-fluid bg-dark text-white">
+    <div id="works-container" class="container-fluid pt-1">
         <h2>Selected work</h2>
         <div class="row">
             <WorkItem v-for="work in selectedWork" :work="work"/>
@@ -23,8 +23,12 @@ onMounted(async() => {
     </div>
 </template>
 
-<style scoped>
-h2 {
-    font-family: "Pixelify Sans", serif;
+<style scoped lang="scss">
+#works-container {
+    background-color: $dark_1;
+    color: $white;
+    h2 {
+        font-family: $pixel-font;
+    }
 }
 </style>

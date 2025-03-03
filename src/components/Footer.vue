@@ -1,5 +1,12 @@
 <template>
     <footer>
-        <p class="text-secondary text-center mb-5"><slot></slot></p>
+        <p class="mb-5"><slot></slot></p>
     </footer>
 </template>
+
+<style scoped lang="scss">
+p {
+    color: $gray;
+    text-align: center;
+}
+</style>

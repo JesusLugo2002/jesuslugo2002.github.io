@@ -10,12 +10,12 @@
     </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 a {
     transition: 0.3s;
-}
-
-a:hover {
-    transform: scale(1.3);
+    color: $dark_1;
+    &:hover {
+        transform: scale(1.3);
+    }
 }
 </style>
