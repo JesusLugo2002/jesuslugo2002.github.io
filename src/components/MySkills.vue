@@ -14,7 +14,7 @@
             <div class="col-12 px-5 py-4 d-flex flex-column col-lg-4">
                 <h3>As artist (well, future artist)...</h3>
                 <p>I have a clear tendency towards pixel-art and every day I take a step closer to perfecting this beautiful and complex technique. As in any creative discipline, the process of improvement is continuous, and there is always a long way to go.</p>
-                <p><span>Fun fact: </span>all the pixel-art you find on this page was drawn by me c:</p>
+                <!-- <p><span>Fun fact: </span>all the pixel-art you find on this page was drawn by me c:</p> -->
             </div>
         </div>
     </div>

@@ -16,7 +16,7 @@ onMounted(async() => {
 
 <template>
     <div id="works-container" class="container-fluid pt-1">
-        <h2>Selected work</h2>
+        <h2>My portfolio</h2>
         <div class="row">
             <WorkItem v-for="work in selectedWork" :work="work"/>
         </div>
