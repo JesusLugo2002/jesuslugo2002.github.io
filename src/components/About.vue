@@ -38,7 +38,6 @@ function writeWord(actionIndex: number) {
             }, 1300)
         }
     }
-    console.log(actionIndex)
     writeChar();
 }
 
