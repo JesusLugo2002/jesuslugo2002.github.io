@@ -6,16 +6,17 @@
         "description": "An arcade cooking game set in the Tenerife carnival and a typical festive food: paponazo. Made with Typescript + Pixi.js and the tutoring of the Canarian video game studio PlayMedusa."
     },
     {
-        "title": "Jukabox - Work in progress",
-        "url": "https://github.com/Chugani05-JesusLugo2002/Jukabox",
-        "cover": "img/jukabox.png",
-        "description": "This project is a full-stack app using Vue.js for the front-end and Django for the back-end, integrated with the MusicBrainz API to fetch and display music data like artists, albums, and tracks."
-    },
-    {
         "title": "Y-TIMP - Work in progress",
         "url": "https://github.com/JesusLugo2002/Y-TIMP",
         "cover": "img/esteganografia.jpeg",
         "description": "'Yes, This is My Password' is a web and cybersecurity application written in Django that allows password management through images using steganography."
+    },
+    {
+        "title": "Jukabox",
+        "url": "https://github.com/Chugani05-JesusLugo2002/Jukabox",
+        "docs-url": "https://github.com/Chugani05-JesusLugo2002/JukaboxDocs",
+        "cover": "img/jukabox.png",
+        "description": "This project is a full-stack app using Vue.js for the front-end and Django for the back-end, integrated with the MusicBrainz API to fetch and display music data like artists, albums, and tracks."
     },
     {
         "title": "Just a game about a hungry crow",
