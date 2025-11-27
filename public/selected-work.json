@@ -1,15 +1,15 @@
 [
     {
-        "title": "Yummy Paponazo - Work in progress",
-        "url": "https://jess-dot-zero.itch.io/yummy-paponazo",
-        "cover": "img/potato.png",
-        "description": "An arcade cooking game set in the Tenerife carnival and a typical festive food: paponazo. Made with Typescript + Pixi.js and the tutoring of the Canarian video game studio PlayMedusa."
+        "title": "Multimode TicTacToe",
+        "url": "https://github.com/JesusLugo2002/PGL-TicTacToe",
+        "cover": "img/tictactoe.png",
+        "description": "A Tic Tac Toe videogame made with React Native as frontend and a provided backend made with Flask to support a multiplayer version using an API, http requests and handle responses with React hooks."
     },
     {
-        "title": "Y-TIMP - Work in progress",
-        "url": "https://github.com/JesusLugo2002/Y-TIMP",
-        "cover": "img/esteganografia.jpeg",
-        "description": "'Yes, This is My Password' is a web and cybersecurity application written in Django that allows password management through images using steganography."
+        "title": "El Ahorcado",
+        "url": "https://github.com/JesusLugo2002/AED-Ahorcado/tree/v2",
+        "cover": "img/ahorcado.png",
+        "description": "A hangman game made with PHP, with the goal of learn about Domain-Driven Design and some principles of PHP language."
     },
     {
         "title": "Jukabox",
