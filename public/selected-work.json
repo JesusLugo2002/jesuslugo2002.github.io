@@ -1,5 +1,12 @@
 [
     {
+        "title": "Pierre's General Store Odoo",
+        "github": "https://github.com/JVC0-JesusLugo2002-Chugani05/Pierres-General-Store-Oddo",
+        "docs": "https://jvc0-jesuslugo2002-chugani05.github.io/Pierres-General-Store-Oddo/",
+        "cover": "img/odoo-pierre.png",
+        "description": "An Odoo 17 implementation for the Pierre's General Store of Stardew Valley videogame, including technical documentation and a custom backend theme made by me."
+    },
+    {
         "title": "Multimode TicTacToe",
         "github": "https://github.com/JesusLugo2002/PGL-TicTacToe",
         "cover": "img/tictactoe.png",
