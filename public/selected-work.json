@@ -1,20 +1,20 @@
 [
     {
         "title": "Multimode TicTacToe",
-        "url": "https://github.com/JesusLugo2002/PGL-TicTacToe",
+        "github": "https://github.com/JesusLugo2002/PGL-TicTacToe",
         "cover": "img/tictactoe.png",
         "description": "A Tic Tac Toe videogame made with React Native as frontend and a provided backend made with Flask to support a multiplayer version using an API, http requests and handle responses with React hooks."
     },
     {
         "title": "El Ahorcado",
-        "url": "https://github.com/JesusLugo2002/AED-Ahorcado/tree/v2",
+        "github": "https://github.com/JesusLugo2002/AED-Ahorcado/tree/v2",
         "cover": "img/ahorcado.png",
         "description": "A hangman game made with PHP, with the goal of learn about Domain-Driven Design and some principles of PHP language."
     },
     {
         "title": "Jukabox",
-        "url": "https://github.com/Chugani05-JesusLugo2002/Jukabox",
-        "docs-url": "https://github.com/Chugani05-JesusLugo2002/JukaboxDocs",
+        "github": "https://github.com/Chugani05-JesusLugo2002/Jukabox",
+        "docs-github": "https://github.com/Chugani05-JesusLugo2002/JukaboxDocs",
         "cover": "img/jukabox.png",
         "description": "This project is a full-stack app using Vue.js for the front-end and Django for the back-end, integrated with the MusicBrainz API to fetch and display music data like artists, albums, and tracks."
     },
@@ -26,61 +26,63 @@
     },
     {
         "title": "Gameside",
-        "url": "https://github.com/Chugani05-JesusLugo2002/GameSide",
+        "github": "https://github.com/Chugani05-JesusLugo2002/GameSide",
         "cover": "img/gameside.png",
         "description": "This project involves creating a custom API in Django without using Rest Framework, implementing custom serializers to handle requests and responses."
     },
     {
         "title": "Lumino + LuminoDocs",
-        "url": "https://github.com/Chugani05-JesusLugo2002/Lumino",
-        "docs-url": "https://github.com/Chugani05-JesusLugo2002/LuminoDocs",
+        "github": "https://github.com/Chugani05-JesusLugo2002/Lumino",
+        "docs": "https://github.com/Chugani05-JesusLugo2002/LuminoDocs",
         "cover": "img/lumino.png",
         "description": "This project uses Django to generate HTML, manage users from the backend, and send emails, with decoupled tasks to improve performance. Includes documentation generated using Material for Mkdocs."
     },
     {
         "title": "Her Pretty Booklist",
-        "url": "https://github.com/JesusLugo2002/her-pretty-booklist",
+        "github": "https://github.com/JesusLugo2002/her-pretty-booklist",
         "cover": "img/her-pretty-booklist.png",
         "description": "A list of books where you can mark those you already have or those you have pending to buy, powered by a Firebase database, you can add, mark or delete books from the web through HTTP requests with Typescript and Vue."
     },
     {
         "title": "Shopping Cart",
-        "url": "https://github.com/JesusLugo2002/DEW-ShoppingCart",
+        "github": "https://github.com/JesusLugo2002/DEW-ShoppingCart",
         "cover": "img/shopping-cart.png",
         "description": "A project for the front-end development class: a video game shopping cart where you can add, remove, and purchase products. It uses tools like Vue and Firebase."
     },
     {
         "title": "TRIBU",
-        "url": "https://github.com/JesusLugo2002/DSW-Tribu",
+        "github": "https://github.com/JesusLugo2002/DSW-Tribu",
         "cover": "img/tribu.png",
         "description": "Compact social network developed in Django and Python as part of the evaluation of the Web Development in Server Environment subject."
     },
     {
         "title": "Pokemon Shop",
-        "url": "https://github.com/JesusLugo2002/DEW-PokemonShop",
+        "github": "https://github.com/JesusLugo2002/DEW-PokemonShop",
         "cover": "img/pokemon-shop.png",
         "description": "Front-end project for a Pokemon store, featuring a third-party API, HTTP requests, and Javascript and Firebase for authentication, login, and new user registration."
     },
     {
         "title": "Post It!",
-        "url": "https://github.com/JesusLugo2002/DSW-PostIt",
+        "github": "https://github.com/JesusLugo2002/DSW-PostIt",
         "cover": "img/postit.png",
         "description": "'ToDo' application, stylized as a Post-it note wall with CSS, for the Server-Side Web Development course."
     },
     {
         "title": "SuperToDo",
-        "url": "https://github.com/JesusLugo2002/DSW-SuperTodo",
+        "github": "https://github.com/JesusLugo2002/DSW-SuperTodo",
         "cover": "img/supertodo.png",
         "description": "'ToDo' web application developed in Django and styled with Bootstrap for the evaluation of the Web Development in Server Environment subject."
     },
     {
         "title": "Legendex",
+        "github": "https://github.com/JesusLugo2002/DOR-LeagueOfLegends",
         "url": "https://jesuslugo2002.github.io/DOR-LeagueOfLegends/",
         "cover": "img/legendex.png",
         "description": "Project for the Web Interface Design course: a gallery of champions from the video game League of Legends, displaying information about them extracted from a third-party API using HTTP requests."
     },
     {
         "title": "JavaSpotify",
+        "github": "https://github.com/JesusLugo2002/DOR-JavaSpotify",
         "url": "https://jesuslugo2002.github.io/DOR-JavaSpotify/",
         "cover": "img/javaspotify.png",
         "description": "Project for the web interface design course: a vinyl-style song player using CSS animations."

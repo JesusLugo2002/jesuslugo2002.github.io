@@ -4,6 +4,9 @@ import { onMounted, ref } from 'vue';
 const email = ref('jesusdlugo02@gmail.com')
 const emailCopied = ref(false)
 
+/**
+ * Enable copy email on label click.
+ */
 function copyEmail() {
     emailCopied.value = true
     const storage = document.createElement('textarea');
@@ -19,6 +22,9 @@ function copyEmail() {
 const actions = ['create.', 'develop.', 'design.', 'write.', 'play.'];
 const currentAction = ref("");
 
+/**
+ * Create typewriting animation on subtitle.
+ */
 function writeWord(actionIndex: number) {
     function writeChar(charIndex: number = 0) {
         currentAction.value += actions[actionIndex][charIndex++]
