@@ -58,7 +58,8 @@ onMounted(() => {
             <div class="row">
                 <div class="col-md-6">
                     <p class="h2">Hi! I'm <b>Jesús Lugo</b>, a videogame developer, and I {{ currentAction }}</p>
-                    <p class="h5 pt-4">If you have any questions or just want to say hi, feel free to send me a message :)</p>
+                    <p class="h5 pt-4">If you have any questions or just want to say hi, feel free to send me a message
+                        :)</p>
                     <p v-if="!emailCopied">>> <a @click="copyEmail">{{ email }}</a></p>
                     <p v-else>>> Email copied!</p>
                 </div>
@@ -73,16 +74,18 @@ onMounted(() => {
 <style scoped lang="scss">
 #about-container {
     background-color: $dark_2;
+
     p {
         color: $white;
     }
+
     b {
         color: $primary;
     }
+
     a {
         cursor: pointer;
         text-decoration: underline;
     }
 }
-
 </style>
