@@ -14,7 +14,7 @@
             <div class="col-12 px-5 py-4 d-flex flex-column col-lg-4">
                 <h3>As artist...</h3>
                 <p>I have a clear tendency towards pixel-art and every day I take a step closer to perfecting this beautiful and complex technique. As in any creative discipline, the process of improvement is continuous, and there is always a long way to go.</p>
-                <p><span>Fun fact: </span>all the pixel-art you find on this page was drawn by me c:, also, here we HATE the generative AI.</p>
+                <p><span>Fun fact: </span>I HATE the generative AI, and... the hero of Adam hand was drawn by me c: I hope you like it!</p>
             </div>
         </div>
     </div>
