@@ -69,12 +69,6 @@
         "description": "Front-end project for a Pokemon store, featuring a third-party API, HTTP requests, and Javascript and Firebase for authentication, login, and new user registration."
     },
     {
-        "title": "Post It!",
-        "github": "https://github.com/JesusLugo2002/DSW-PostIt",
-        "cover": "img/postit.png",
-        "description": "'ToDo' application, stylized as a Post-it note wall with CSS, for the Server-Side Web Development course."
-    },
-    {
         "title": "SuperToDo",
         "github": "https://github.com/JesusLugo2002/DSW-SuperTodo",
         "cover": "img/supertodo.png",
