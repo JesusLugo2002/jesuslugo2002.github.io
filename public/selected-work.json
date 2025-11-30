@@ -53,8 +53,9 @@
     {
         "title": "Shopping Cart",
         "github": "https://github.com/JesusLugo2002/DEW-ShoppingCart",
+        "url": "https://jesuslugo2002.github.io/DEW-ShoppingCart/#/shop",
         "cover": "img/shopping-cart.png",
-        "description": "A project for the front-end development class: a video game shopping cart where you can add, remove, and purchase products. It uses tools like Vue and Firebase."
+        "description": "A project for the front-end development class: a video game shopping cart where you can add, remove, and purchase products. It uses tools like Vite + Vue and Pinia store."
     },
     {
         "title": "TRIBU",
