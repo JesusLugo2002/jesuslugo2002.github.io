@@ -45,12 +45,6 @@
         "description": "This project uses Django to generate HTML, manage users from the backend, and send emails, with decoupled tasks to improve performance. Includes documentation generated using Material for Mkdocs."
     },
     {
-        "title": "Her Pretty Booklist",
-        "github": "https://github.com/JesusLugo2002/her-pretty-booklist",
-        "cover": "img/her-pretty-booklist.png",
-        "description": "A list of books where you can mark those you already have or those you have pending to buy, powered by a Firebase database, you can add, mark or delete books from the web through HTTP requests with Typescript and Vue."
-    },
-    {
         "title": "Shopping Cart",
         "github": "https://github.com/JesusLugo2002/DEW-ShoppingCart",
         "url": "https://jesuslugo2002.github.io/DEW-ShoppingCart/#/shop",
