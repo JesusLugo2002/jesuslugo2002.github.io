@@ -40,7 +40,7 @@
     {
         "title": "Lumino + LuminoDocs",
         "github": "https://github.com/Chugani05-JesusLugo2002/Lumino",
-        "docs": "https://github.com/Chugani05-JesusLugo2002/LuminoDocs",
+        "docs": "https://chugani05-jesuslugo2002.github.io/LuminoDocs/",
         "cover": "img/lumino.png",
         "description": "This project uses Django to generate HTML, manage users from the backend, and send emails, with decoupled tasks to improve performance. Includes documentation generated using Material for Mkdocs."
     },
